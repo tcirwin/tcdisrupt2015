@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<script type="template" id="productListItem">
+  <li class="item">
+    <a><div class="name"><%= name %></div><img src="<%= thumbnailImage %>"></a>
+  </li>
+</script>
+<input type="text" id="search">
+<ul id="productList"></ul>
+<script src="https://code.jquery.com/jquery-2.1.4.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
